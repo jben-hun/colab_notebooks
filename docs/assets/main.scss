@@ -10,12 +10,23 @@ a {
     }
 }
 
-.alignleft {
-    float: left;
+.textleft {
+    text-align: left;
 }
-.alignright {
-    float: right;
+.textright {
+    text-align: right;
 }
-.centertext {
-    text-align: center
+.textcenter {
+    text-align: center;
+}
+
+.borderless
+{
+    border:none;
+    border-collapse:collapse;
+} 
+.borderless td
+{
+    border:none;
+    outline:none;
 }
