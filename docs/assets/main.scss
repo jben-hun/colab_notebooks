@@ -6,7 +6,7 @@
 
 a { 
     &:visited {
-        color: darken($brand-color, 25%);
+        color: darken($brand-color, 10%);
     }
 }
 
@@ -20,13 +20,15 @@ a {
     text-align: center;
 }
 
-.borderless
-{
+.borderless {
     border:none;
     border-collapse:collapse;
 } 
-.borderless td
-{
+.borderless td {
     border:none;
     outline:none;
+}
+
+main {
+    background-image: url("../images/bg.png");
 }
