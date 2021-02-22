@@ -1,5 +1,3 @@
 [submodule "docs"]
 	path = docs
-	url = https://github.com/jekyll/minima.git
-[submodule "docss"]
 	url = https://github.com/jben-hun/minima.git
